@@ -1,0 +1,11 @@
+openai
+ollama
+langchain
+langchain-openai
+langchain-community
+langchain-ollama
+faiss-cpu
+numpy
+nltk
+unstructured[pdf]
+python-dotenv

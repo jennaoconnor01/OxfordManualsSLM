@@ -1,0 +1,31 @@
+# Environment variables - NEVER commit this
+.env
+
+# FAISS index files (regenerate by running embed.py)
+oxford_faiss_index/
+*.faiss
+*.pkl
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw and extracted PDF data (too large for GitHub)
+data/
+extracted/
+clean_extracted/
+
+# IDE
+.vscode/
+.idea/
